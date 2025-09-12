@@ -39,7 +39,7 @@ export default function ServicesPage() {
     <div className="container py-12 md:py-16 lg:py-20">
       <div className="space-y-4 text-center">
         <h1 className="font-headline text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl">
-          Our Services
+          Our Expertise
         </h1>
         <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl">
           We offer a range of services designed to support and advance the pharmaceutical and allied industries through events, publications, and expert consultancy.
