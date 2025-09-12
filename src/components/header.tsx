@@ -28,7 +28,7 @@ const whatWeDoLinks = [
   { href: '/seminars', label: 'Seminars' },
   { href: '/rbsm', label: 'RBSM' },
   { href: '/publications', label: 'Publications' },
-  { href: '/international', label: 'International' },
+  { href: '/international', label: 'International Exhibition' },
 ];
 
 const otherNavLinks = [
