@@ -162,6 +162,24 @@ export const upcomingExhibitions = [
 
 export const seminars = [
     {
+      event: 'Swarnim Vision\non 1st September 2012',
+      location: 'Ahmedabad',
+      topics: ['National Biotechnology Symposium (NBS) 2012'],
+      partners: ['NYU Poly University, New York', 'FIP, Amsterdem'],
+    },
+    {
+      event: 'Swarnim Vision\non 16th February 2013',
+      location: 'Ahmedabad',
+      topics: ['National Symposium on "Innovations in Pharmaceutical Sciences - NSIPS 2013"'],
+      partners: ['FIP, Amsterdem'],
+    },
+    {
+      event: 'Swarnim Vision\non 19th & 20th July, 2013',
+      location: 'Ahmedabad',
+      topics: ['"National Symposium on Bioequivalence Studies & Generic Product Development"'],
+      partners: ['Association of Clinical Research Organisation (ACRO)'],
+    },
+    {
       event: 'PharmaTech Expo & Pack & PrinTech Expo 2016\nfrom 21 to 23 August 2016',
       location: 'Ahmedabad',
       topics: ['GMP for SME\'s - Schedule "M" & "Beyond"', 'Ayurveda - "The future of Healthcare"', 'Track & Trace - The Need of the Industry'],
