@@ -1,3 +1,52 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "project-1",
+      "description": "A modern skyscraper representing a construction project.",
+      "imageUrl": "https://picsum.photos/seed/project-1/600/400",
+      "imageHint": "skyscraper architecture"
+    },
+    {
+      "id": "project-2",
+      "description": "A luxurious residential complex, a real estate project.",
+      "imageUrl": "https://picsum.photos/seed/project-2/600/400",
+      "imageHint": "apartment building"
+    },
+    {
+      "id": "project-3",
+      "description": "A data center hall, representing a technology project.",
+      "imageUrl": "https://picsum.photos/seed/project-3/600/400",
+      "imageHint": "data center"
+    },
+    {
+      "id": "project-4",
+      "description": "A stock market graph on a screen, representing investment management.",
+      "imageUrl": "https://picsum.photos/seed/project-4/600/400",
+      "imageHint": "stock market"
+    },
+    {
+      "id": "project-5",
+      "description": "A wind farm at sunset, an energy project.",
+      "imageUrl": "https://picsum.photos/seed/project-5/600/400",
+      "imageHint": "wind turbine"
+    },
+    {
+      "id": "project-6",
+      "description": "A new bridge under construction.",
+      "imageUrl": "https://picsum.photos/seed/project-6/600/400",
+      "imageHint": "bridge construction"
+    },
+    {
+      "id": "project-7",
+      "description": "A modern suburban house.",
+      "imageUrl": "https://picsum.photos/seed/project-7/600/400",
+      "imageHint": "modern house"
+    },
+    {
+      "id": "project-8",
+      "description": "A solar panel field.",
+      "imageUrl": "https://picsum.photos/seed/project-8/600/400",
+      "imageHint": "solar panels"
+    }
+  ]
 }
