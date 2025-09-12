@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import { Card, CardContent } from '@/components/ui/card';
 import { KnsLogo } from '@/components/icons';
+import { Award } from 'lucide-react';
 
 const managementTeam = [
   {
@@ -25,7 +26,25 @@ const managementTeam = [
         'He has been engaged in organising "PharmaTech Expo & LabTech Expo" exhibition. He is responsible for coordinating Interphex USA since 2013 and is also having exposure for international events including at United States, Japan, Myanmar, Germany, China, Dubai & Korea.',
     ],
   },
+  {
+    name: 'Mrs. Keena Shah',
+    title: 'Director',
+    imageUrl: 'https://picsum.photos/seed/keena-shah/400/500',
+    imageHint: 'portrait woman',
+    bio: [
+        'Mrs. Keena Shah daughter of Ramesh Shah is also contributing in the development of business of KNS Group. Mrs Shah B.Sc Electronics and Post Graduation Diploma in Marketing, Nirma University is handling activities of Sevak Group of Companies based in Mumbai. She is also looking after customer relationship, marketing and Human Resource development portfolio for all group companies.'
+    ],
+  },
 ];
+
+const awards = [
+    'The Chairman of KNS Group Mr. Ramesh Shah, has received "Rashatriya Udhog Ratna" Award in 2013 from Centre for Education & Research, Pune towards contribution to National Economic Growth at Mumbai.',
+    'PharmaTechnologyIndex.com Pvt Ltd received "Leaders in Marketing" award from Exhibition Excellence Award during 2017 as 2 runner up at New Delhi.',
+    'PharmaTechnologyIndex.com Pvt Ltd also received "Best Debut Show" award for PharmaTech Expo 2017, Chandigarh, and Exhibition Excellence Award during 2018 as 2nd runner up at New Delhi.',
+    'PharmaTechnologyIndex.com Pvt Ltd also received "Top Show in Pharma & Chemical" award for PharmaTech Expo 2019, Ahmedabad and Exhibition Excellence Award during 2020 as 2nd runner up.',
+    'PharmaTechnologyindex.com also Receives TOP 3 CLUB of The B-City Ace Category at EEA2023 For PharmaTech Expo & LabTech Expo 2022.',
+    'PharmaTechnologyindex.com also Receives 1st Prize at the Star B - City Show Industry Awards for PharmaTech Expo & LabTech Expo 2023 Gandhinagar.',
+]
 
 export default function ManagementPage() {
   return (
@@ -34,7 +53,7 @@ export default function ManagementPage() {
         <div className="flex justify-center items-center gap-4">
              <KnsLogo className="h-10 w-10 text-primary" />
              <h1 className="font-headline text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl">
-                KNS Group
+                KNS Group Leadership
              </h1>
         </div>
         <p className="mx-auto max-w-[900px] text-muted-foreground md:text-xl">
@@ -71,6 +90,31 @@ export default function ManagementPage() {
           </div>
         ))}
       </div>
+
+       <section id="awards" className="w-full py-12 md:py-16 lg:py-20 mt-16 bg-card rounded-lg">
+          <div className="container px-4 md:px-6">
+            <div className="flex flex-col items-center justify-center space-y-4 text-center">
+              <div className="space-y-2">
+                <h2 className="font-headline text-3xl font-bold tracking-tighter sm:text-5xl">
+                  Awards & Recognitions
+                </h2>
+                 <p className="max-w-[900px] text-card-foreground/80 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                  A testament to our commitment to excellence.
+                </p>
+              </div>
+            </div>
+            <div className="mx-auto grid max-w-5xl items-start gap-8 mt-12">
+                {awards.map((award, index) => (
+                    <div key={index} className="flex items-start gap-4">
+                        <div className="bg-accent rounded-md p-2 flex-shrink-0 mt-1">
+                            <Award className="h-5 w-5 text-accent-foreground" />
+                        </div>
+                        <p className="text-muted-foreground">{award}</p>
+                    </div>
+                ))}
+            </div>
+          </div>
+        </section>
     </div>
   );
 }
