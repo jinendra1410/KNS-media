@@ -11,6 +11,7 @@ import { KnsLogo } from './icons';
 
 const navLinks = [
   { href: '/', label: 'Home' },
+  { href: '/about', label: 'About' },
   { href: '/portfolio', label: 'Portfolio' },
   { href: '/news', label: 'News' },
   { href: '/careers', label: 'Careers' },
