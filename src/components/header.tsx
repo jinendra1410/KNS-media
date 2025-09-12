@@ -19,6 +19,7 @@ const navLinks = [
   { href: '/seminars', label: 'Seminars' },
   { href: '/rbsm', label: 'RBSM' },
   { href: '/publications', label: 'Publications' },
+  { href: '/international', label: 'International' },
   { href: '/news', label: 'News' },
   { href: '/careers', label: 'Careers' },
   { href: '/contact', label: 'Contact' },
