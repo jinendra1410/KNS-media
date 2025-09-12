@@ -43,7 +43,7 @@ export default function ContactPage() {
                 </div>
                 <div>
                     <h3 className="font-semibold">Call Us</h3>
-                    <p className="text-muted-foreground">+91-79-2754 0493</p>
+                    <p className="text-muted-foreground">+91 93772 35673</p>
                 </div>
             </div>
           </div>
