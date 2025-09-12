@@ -138,17 +138,17 @@ export const locations = [
 export const exhibitions = [
   { event: 'PharmaTech Expo 2011', date: '22 to 24 April 2011', location: 'Indore' },
   { event: 'PharmaTech Expo 2013', date: '6 to 8 October 2013', location: 'Indore' },
-  { event: 'PharmaTech Expo and Pack &amp; PrinTech Expo 2015', date: '30 Oct to 1 November 2015', location: 'Indore' },
-  { event: 'PharmaTech Expo and Pack &amp; PrinTech Expo 2016', date: '21 to 23 August 2016', location: 'Ahmedabad' },
-  { event: 'PharmaTech Expo &amp; LabTech Expo 2017', date: '11 to 13 April 2017', location: 'Chandigarh' },
-  { event: 'PharmaTech Expo &amp; LabTech Expo 2017', date: '3 to 5 August 2017', location: 'Ahmedabad' },
-  { event: 'PharmaTech Expo &amp; LabTech Expo 2018', date: '27 to 29 April 2018', location: 'Chandigarh' },
-  { event: 'PharmaTech Expo &amp; LabTech Expo 2018', date: '22 to 24 August 2018', location: 'Ahmedabad' },
-  { event: 'PharmaTech Expo &amp; LabTech Expo 2019', date: '19 to 21 April 2019', location: 'Chandigarh' },
-  { event: 'PharmaTech Expo &amp; LabTech Expo 2019', date: '20 to 22 August 2019', location: 'Ahmedabad' },
-  { event: 'PharmaTech Expo &amp; LabTech Expo 2020', date: '4 to 6 March 2020', location: 'Mumbai' },
-  { event: 'PharmaTech Expo &amp; LabTech Expo 2022', date: '28 to 30 April 2022', location: 'Chandigarh' },
-  { event: 'PharmaTech Expo &amp; LabTech Expo 2022', date: '05 to 07 August 2022', location: 'Gandhinagar' },
+  { event: 'PharmaTech Expo and Pack & PrinTech Expo 2015', date: '30 Oct to 1 November 2015', location: 'Indore' },
+  { event: 'PharmaTech Expo and Pack & PrinTech Expo 2016', date: '21 to 23 August 2016', location: 'Ahmedabad' },
+  { event: 'PharmaTech Expo & LabTech Expo 2017', date: '11 to 13 April 2017', location: 'Chandigarh' },
+  { event: 'PharmaTech Expo & LabTech Expo 2017', date: '3 to 5 August 2017', location: 'Ahmedabad' },
+  { event: 'PharmaTech Expo & LabTech Expo 2018', date: '27 to 29 April 2018', location: 'Chandigarh' },
+  { event: 'PharmaTech Expo & LabTech Expo 2018', date: '22 to 24 August 2018', location: 'Ahmedabad' },
+  { event: 'PharmaTech Expo & LabTech Expo 2019', date: '19 to 21 April 2019', location: 'Chandigarh' },
+  { event: 'PharmaTech Expo & LabTech Expo 2019', date: '20 to 22 August 2019', location: 'Ahmedabad' },
+  { event: 'PharmaTech Expo & LabTech Expo 2020', date: '4 to 6 March 2020', location: 'Mumbai' },
+  { event: 'PharmaTech Expo & LabTech Expo 2022', date: '28 to 30 April 2022', location: 'Chandigarh' },
+  { event: 'PharmaTech Expo & LabTech Expo 2022', date: '05 to 07 August 2022', location: 'Gandhinagar' },
 ];
 
 export const upcomingExhibitions = [
@@ -158,4 +158,55 @@ export const upcomingExhibitions = [
     { event: 'PharmaTech Expo & LabTech Expo 2024', date: '08 to 10 August 2024', location: 'Gandhinagar' },
     { event: 'PharmaTech Expo & LabTech Expo 2025', date: '08 to 10 January 2025', location: 'Bengaluru' },
     { event: 'PharmaTech Expo & LabTech Expo 2025', date: '10 to 12 April 2025', location: 'Chandigarh' },
+];
+
+export const seminars = [
+    {
+      event: 'PharmaTech Expo & Pack & PrinTech Expo 2016\nfrom 21 to 23 August 2016',
+      location: 'Ahmedabad',
+      topics: ['GMP for SME\'s - Schedule "M" & "Beyond"', 'Ayurveda - "The future of Healthcare"', 'Track & Trace - The Need of the Industry'],
+      partners: ['Pharmaceutical Export Promotional Council (PHARMEXCIL)', 'B. V. Patel PERD Centre, Ahmedabad', 'Aseptic Technology Inc.'],
+    },
+    {
+      event: 'PharmaTech Expo & LabTech Expo 2017\nfrom 11 to 13 April 2017',
+      location: 'Chandigarh',
+      topics: ['Pharma cGMP, Data Integrity and Documentation: Current Challenges'],
+      partners: ['National Institute of Pharmaceutical Education and Research (NIPER)'],
+    },
+    {
+      event: 'PharmaTech Expo & LabTech Expo 2017\nfrom 3 to 5 August 2017',
+      location: 'Ahmedabad',
+      topics: ['Doing Business with Africa', 'Impact of Analytical Technology on Quality Production of Pharmaceuticals'],
+      partners: ['Indo-African Chamber of Commerce & Industry (IACCI) and Embassy of Niger and Embassy of Togo.', 'B. V. Patel PERD Centre, Ahmedabad'],
+    },
+    {
+      event: 'PharmaTech Expo & LabTech Expo 2018\nfrom 27 to 29 April 2018',
+      location: 'Chandigarh',
+      topics: ['Technical Discussion on Pharmaceutical & Machinery industry'],
+      partners: ['Indian Pharmaceutical Association, Delhi Branch'],
+    },
+    {
+      event: 'PharmaTech Expo & LabTech Expo 2018\nfrom 22 to 24 August 2018',
+      location: 'Ahmedabad',
+      topics: ['Indian Pharma Industry: "Gearing for Global Giant"', 'Current Trends in Compliance - The Role of Human Resources'],
+      partners: ['Food and Drugs Control Administration (FDCA), Gujarat', 'Pharma Knowledge Centre, Ahmedabad'],
+    },
+    {
+      event: 'PharmaTech Expo & LabTech Expo 2019\nfrom 27 to 29 April 2019',
+      location: 'Chandigarh',
+      topics: ['Recent Developments in Indian Regulations and Needs of Pharma Industry'],
+      partners: ['Indian Pharmaceutical Association, Delhi Branch'],
+    },
+    {
+      event: 'PharmaTech Expo & LabTech Expo 2019\nfrom 20 to 22 August 2019',
+      location: 'Ahmedabad',
+      topics: ['Business & Investment Opportunity in Ethiopia Specially in Pharma & Healthcare Sector'],
+      partners: ['Indo-Africa Chamber of Commerce and Industry (IACCI)'],
+    },
+    {
+      event: 'PharmaTech Expo & LabTech Expo 2019\nfrom 28 to 30 April 2022',
+      location: 'Chandigarh',
+      topics: ['Quality and Regulatory Requirements of Pharma Export Business', 'Haryana Exporter\'s Conclave'],
+      partners: ['Haryana Government', 'EEPC INDIA'],
+    },
 ];
