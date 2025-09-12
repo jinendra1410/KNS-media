@@ -1,29 +1,7 @@
 import Image from 'next/image';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Briefcase, Newspaper, Globe, BrainCircuit, Handshake } from 'lucide-react';
-
-const groupCompanies = [
-    {
-        name: 'M/s Kantilal N Shah',
-        icon: Briefcase,
-    },
-    {
-        name: 'KNS Media',
-        icon: Newspaper,
-    },
-    {
-        name: 'PharmaTechnologyIndex.com Pvt. Ltd.',
-        icon: Globe,
-    },
-    {
-        name: 'A. R. Consultancy',
-        icon: BrainCircuit,
-    },
-    {
-        name: 'Swarnim Vision',
-        icon: Handshake,
-    },
-];
+import { Briefcase, Newspaper, Globe, BrainCircuit, Handshake, Zap } from 'lucide-react';
+import { groupCompanies } from '@/lib/data';
 
 export default function AboutPage() {
   return (

@@ -1,4 +1,4 @@
-import { Building, Cpu, Home, LineChart, Zap } from 'lucide-react';
+import { Building, Cpu, Home, LineChart, Zap, Newspaper, BrainCircuit, Handshake, Briefcase } from 'lucide-react';
 
 export const businessDivisions = [
   {
@@ -26,6 +26,29 @@ export const businessDivisions = [
     description: 'Powering a sustainable future with efficient and renewable energy projects and solutions.',
     icon: Zap,
   },
+];
+
+export const groupCompanies = [
+    {
+        name: 'M/s Kantilal N Shah',
+        icon: Briefcase,
+    },
+    {
+        name: 'KNS Media',
+        icon: Newspaper,
+    },
+    {
+        name: 'PharmaTechnologyIndex.com Pvt. Ltd.',
+        icon: Zap,
+    },
+    {
+        name: 'A. R. Consultancy',
+        icon: BrainCircuit,
+    },
+    {
+        name: 'Swarnim Vision',
+        icon: Handshake,
+    },
 ];
 
 export const projects = [
