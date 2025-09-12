@@ -11,15 +11,6 @@ import ContactForm from '@/components/contact-form';
 
 export default function Home() {
 
-  const clientLogos = [
-    { src: 'https://picsum.photos/seed/client1/150/60', alt: 'Client 1', hint: 'logo' },
-    { src: 'https://picsum.photos/seed/client2/150/60', alt: 'Client 2', hint: 'logo' },
-    { src: 'https://picsum.photos/seed/client3/150/60', alt: 'Client 3', hint: 'logo' },
-    { src: 'https://picsum.photos/seed/client4/150/60', alt: 'Client 4', hint: 'logo' },
-    { src: 'https://picsum.photos/seed/client5/150/60', alt: 'Client 5', hint: 'logo' },
-    { src: 'https://picsum.photos/seed/client6/150/60', alt: 'Client 6', hint: 'logo' },
-  ];
-
   const quickLinks = [
     { title: 'Exhibitions', description: 'Premier events for the pharma industry.', icon: CalendarDays, href: '/exhibitions' },
     { title: 'Publications', description: 'Insights from the forefront of the industry.', icon: BookOpen, href: '/publications' },
@@ -154,51 +145,6 @@ export default function Home() {
                   </Link>
                  )
               })}
-            </div>
-          </div>
-        </section>
-
-        <section id="clients" className="w-full py-12 md:py-24 lg:py-32 bg-card">
-          <div className="container px-4 md:px-6">
-            <div className="flex flex-col items-center justify-center space-y-4 text-center">
-              <div className="space-y-2">
-                <h2 className="font-headline text-3xl font-bold tracking-tighter sm:text-5xl">
-                  Our Valued Clients
-                </h2>
-                <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  We are proud to have worked with a diverse range of clients from various sectors.
-                </p>
-              </div>
-            </div>
-            <div className="mt-12">
-              <Carousel
-                opts={{
-                  align: "start",
-                  loop: true,
-                }}
-                className="w-full max-w-4xl mx-auto"
-              >
-                <CarouselContent>
-                  {clientLogos.map((logo, index) => (
-                    <CarouselItem key={index} className="md:basis-1/3 lg:basis-1/4">
-                      <div className="p-1">
-                        <Card className="flex items-center justify-center p-6 h-32 bg-background">
-                           <Image
-                            src={logo.src}
-                            width={150}
-                            height={60}
-                            alt={logo.alt}
-                            data-ai-hint={logo.hint}
-                            className="object-contain"
-                          />
-                        </Card>
-                      </div>
-                    </CarouselItem>
-                  ))}
-                </CarouselContent>
-                <CarouselPrevious />
-                <CarouselNext />
-              </Carousel>
             </div>
           </div>
         </section>
