@@ -1,4 +1,4 @@
-import { Building, Cpu, Home, LineChart, Zap, Newspaper, BrainCircuit, Handshake, Briefcase } from 'lucide-react';
+import { Building, Cpu, Home, LineChart, Zap, Newspaper, BrainCircuit, Handshake, Briefcase, Calendar } from 'lucide-react';
 
 export const businessDivisions = [
   {
@@ -25,6 +25,11 @@ export const businessDivisions = [
     name: 'Energy',
     description: 'Powering a sustainable future with efficient and renewable energy projects and solutions.',
     icon: Zap,
+  },
+  {
+    name: 'Event Management',
+    description: 'Organizing and managing large-scale industry events and exhibitions.',
+    icon: Calendar,
   },
 ];
 
@@ -115,6 +120,14 @@ export const projects = [
       description: 'One of the largest solar power installations in the region, covering 1,000 acres and generating 300 MW of clean, sustainable energy.',
       imageUrl: 'https://picsum.photos/seed/project-8/600/400',
       imageHint: 'solar panels',
+    },
+    {
+      id: 'p9',
+      name: 'Pharma MachTech & LabNext Expo 2025',
+      division: 'Event Management',
+      description: 'Managed by KNS Media, this expo will be held from 4th to 6th September 2025, bringing together the pharmaceutical machinery and laboratory technology sectors.',
+      imageUrl: 'https://picsum.photos/seed/project-9/600/400',
+      imageHint: 'pharma expo',
     },
 ];
 

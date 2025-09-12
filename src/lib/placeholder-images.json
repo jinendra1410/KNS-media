@@ -47,6 +47,12 @@
       "description": "A solar panel field.",
       "imageUrl": "https://picsum.photos/seed/project-8/600/400",
       "imageHint": "solar panels"
+    },
+    {
+      "id": "project-9",
+      "description": "A pharmaceutical expo event.",
+      "imageUrl": "https://picsum.photos/seed/project-9/600/400",
+      "imageHint": "pharma expo"
     }
   ]
 }
