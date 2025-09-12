@@ -228,3 +228,97 @@ export const seminars = [
       partners: ['Haryana Government', 'EEPC INDIA'],
     },
 ];
+
+export const rbsmEvents = [
+  {
+    event: 'Pharma Tech Expo & Lab Tech Expo 2017',
+    date: 'from 3 to 5 August 2017',
+    location: 'Ahmedabad',
+    delegates: 'Six',
+    countries: [
+      'Ambassador of Niger',
+      'Ambassador of Togo',
+      'Representatives from Lesotho, Mali, Burkina Faso',
+    ],
+    meetings: 500,
+  },
+  {
+    event: 'Pharma Tech Expo & Lab Tech Expo 2018',
+    date: 'from 27 to 29 April 2018',
+    location: 'Chandigarh',
+    delegates: 'Eight',
+    countries: [
+      'Representative from South Africa, Burkina Faso, Botswana, Swaziland, Niger',
+    ],
+    meetings: 700,
+  },
+  {
+    event: 'Pharma Tech Expo & Lab Tech Expo 2018',
+    date: 'from 22 to 24 August 2018',
+    location: 'Ahmedabad',
+    delegates: 'Fourteen',
+    countries: [
+      'Representative from South Africa, Sudan, Botswana, Tanzania, Zimbabwe',
+    ],
+    meetings: 1200,
+  },
+  {
+    event: 'Pharma Tech Expo & Lab Tech Expo 2019',
+    date: 'from 20 to 22 August 2019',
+    location: 'Ahmedabad',
+    delegates: 'Ten',
+    countries: [
+      'Ambassador of Ethiopia',
+      'Representative from Cameroon, Congo, Ghana, Sudan',
+    ],
+    meetings: 900,
+  },
+  {
+    event: 'Pharma Tech Expo & Lab Tech Expo 2020',
+    date: 'from 4 to 6 March 2020',
+    location: 'Mumbai',
+    delegates: 'Thirty-Three',
+    countries: [
+      'Representative from Nigeria, Ghana, Congo, Tanzania, Botswana, Cameroon, Mali, Burkina Faso, Namibia, Mozambique',
+    ],
+    meetings: 2100,
+  },
+  {
+    event: 'Pharma Tech Expo & Lab Tech Expo 2022',
+    date: 'From 5 to 7 August 2022',
+    location: 'Gandhinagar',
+    delegates: 'Nineteen',
+    countries: ['Nigeria, Ghana, Angola, Mozambique, Senegal and Namibia.'],
+    meetings: 1875,
+  },
+  {
+    event: 'Pharma Tech Expo & Lab Tech Expo 2023',
+    date: 'From 8 to 10 August 2023',
+    location: 'Gandhinagar',
+    delegates: 'Twelve',
+    countries: [
+      'Benin Republic, Ethiopia, Ghana, Namibia, Tanzania, Togo and Uganda',
+    ],
+    meetings: 1500,
+  },
+  {
+    event: 'Pharma Tech Expo & Lab Tech Expo 2024',
+    date: 'From 8 to 10 August 2024',
+    location: 'Gandhinagar',
+    delegates: 'Seventeen',
+    countries: [
+      'Angola, Burkina Faso, Democratic Republic of Congo, Ethiopia, Ghana, Mozambique, and Namibia',
+    ],
+    meetings: 1500,
+  },
+  {
+    event: 'Pharma Tech Expo & Lab Tech Expo 2025',
+    date: 'From 8 to 10 January 2025',
+    location: 'Bengaluru',
+    delegates: 'Seven',
+    countries: ['Ethiopia, Ghana, Sudan and Botswana'],
+    meetings: 700,
+  },
+];
+
+    

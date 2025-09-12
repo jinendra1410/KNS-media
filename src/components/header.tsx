@@ -17,6 +17,7 @@ const navLinks = [
   { href: '/services', label: 'Services' },
   { href: '/exhibitions', label: 'Exhibitions' },
   { href: '/seminars', label: 'Seminars' },
+  { href: '/rbsm', label: 'RBSM' },
   { href: '/publications', label: 'Publications' },
   { href: '/news', label: 'News' },
   { href: '/careers', label: 'Careers' },
@@ -85,3 +86,5 @@ export function Header() {
     </header>
   );
 }
+
+    
