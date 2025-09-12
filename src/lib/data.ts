@@ -134,3 +134,19 @@ export const locations = [
   { id: 'project-1-loc', name: 'Azure Tower Site', lat: 40.7580, lng: -73.9855 },
   { id: 'project-5-loc', name: 'Helios Wind Farm', lat: 34.0522, lng: -118.2437 },
 ];
+
+export const exhibitions = [
+  { event: 'PharmaTech Expo 2011', date: '22 to 24 April 2011', location: 'Indore' },
+  { event: 'PharmaTech Expo 2013', date: '6 to 8 October 2013', location: 'Indore' },
+  { event: 'PharmaTech Expo and Pack &amp; PrinTech Expo 2015', date: '30 Oct to 1 November 2015', location: 'Indore' },
+  { event: 'PharmaTech Expo and Pack &amp; PrinTech Expo 2016', date: '21 to 23 August 2016', location: 'Ahmedabad' },
+  { event: 'PharmaTech Expo &amp; LabTech Expo 2017', date: '11 to 13 April 2017', location: 'Chandigarh' },
+  { event: 'PharmaTech Expo &amp; LabTech Expo 2017', date: '3 to 5 August 2017', location: 'Ahmedabad' },
+  { event: 'PharmaTech Expo &amp; LabTech Expo 2018', date: '27 to 29 April 2018', location: 'Chandigarh' },
+  { event: 'PharmaTech Expo &amp; LabTech Expo 2018', date: '22 to 24 August 2018', location: 'Ahmedabad' },
+  { event: 'PharmaTech Expo &amp; LabTech Expo 2019', date: '19 to 21 April 2019', location: 'Chandigarh' },
+  { event: 'PharmaTech Expo &amp; LabTech Expo 2019', date: '20 to 22 August 2019', location: 'Ahmedabad' },
+  { event: 'PharmaTech Expo &amp; LabTech Expo 2020', date: '4 to 6 March 2020', location: 'Mumbai' },
+  { event: 'PharmaTech Expo &amp; LabTech Expo 2022', date: '28 to 30 April 2022', location: 'Chandigarh' },
+  { event: 'PharmaTech Expo &amp; LabTech Expo 2022', date: '05 to 07 August 2022', location: 'Gandhinagar' },
+];
