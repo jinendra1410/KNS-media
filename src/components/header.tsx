@@ -15,6 +15,7 @@ const navLinks = [
   { href: '/management', label: 'Management' },
   { href: '/portfolio', label: 'Portfolio' },
   { href: '/exhibitions', label: 'Exhibitions' },
+  { href: '/publications', label: 'Publications' },
   { href: '/news', label: 'News' },
   { href: '/careers', label: 'Careers' },
   { href: '/contact', label: 'Contact' },

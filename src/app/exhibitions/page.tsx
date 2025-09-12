@@ -8,8 +8,9 @@ import {
   TableHeader,
   TableRow,
 } from '@/components/ui/table';
-import { exhibitions } from '@/lib/data';
+import { exhibitions, upcomingExhibitions } from '@/lib/data';
 import { Badge } from '@/components/ui/badge';
+import { CalendarDays } from 'lucide-react';
 
 export default function ExhibitionsPage() {
   return (
@@ -58,6 +59,43 @@ export default function ExhibitionsPage() {
             />
         </div>
       </div>
+
+       <section id="upcoming-events" className="w-full py-12 md:py-16 lg:py-20">
+        <div className="space-y-4 text-center">
+            <div className="inline-block rounded-lg bg-muted px-3 py-1 text-sm flex items-center gap-2 mx-auto">
+                <CalendarDays className="h-4 w-4"/>
+                <span>Upcoming Events</span>
+            </div>
+            <h2 className="font-headline text-3xl font-bold tracking-tighter sm:text-4xl">
+                Join Us at Our Next Expo
+            </h2>
+            <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl">
+                Mark your calendars for our upcoming exhibitions.
+            </p>
+        </div>
+        <Card className="mt-8">
+            <CardContent className="p-0">
+                <Table>
+                <TableHeader>
+                    <TableRow>
+                    <TableHead>Event</TableHead>
+                    <TableHead>Date</TableHead>
+                    <TableHead>Location</TableHead>
+                    </TableRow>
+                </TableHeader>
+                <TableBody>
+                    {upcomingExhibitions.map((expo, index) => (
+                        <TableRow key={index}>
+                            <TableCell className="font-medium">{expo.event}</TableCell>
+                            <TableCell>{expo.date}</TableCell>
+                            <TableCell>{expo.location}</TableCell>
+                        </TableRow>
+                    ))}
+                </TableBody>
+                </Table>
+            </CardContent>
+        </Card>
+      </section>
 
       <section id="event-highlights" className="w-full py-12 md:py-16 lg:py-20">
         <div className="space-y-4 text-center">

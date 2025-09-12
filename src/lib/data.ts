@@ -150,3 +150,12 @@ export const exhibitions = [
   { event: 'PharmaTech Expo &amp; LabTech Expo 2022', date: '28 to 30 April 2022', location: 'Chandigarh' },
   { event: 'PharmaTech Expo &amp; LabTech Expo 2022', date: '05 to 07 August 2022', location: 'Gandhinagar' },
 ];
+
+export const upcomingExhibitions = [
+    { event: 'PharmaTech Expo and LabTech Expo 2023', date: '11 to 13 April 2023', location: 'Chandigarh' },
+    { event: 'PharmaTech Expo and LabTech Expo 2023', date: '25 to 27 August 2023', location: 'Gandhinagar' },
+    { event: 'PharmaTech Expo & LabTech Expo 2024', date: '13 to 15 April 2024', location: 'Chandigarh' },
+    { event: 'PharmaTech Expo & LabTech Expo 2024', date: '08 to 10 August 2024', location: 'Gandhinagar' },
+    { event: 'PharmaTech Expo & LabTech Expo 2025', date: '08 to 10 January 2025', location: 'Bengaluru' },
+    { event: 'PharmaTech Expo & LabTech Expo 2025', date: '10 to 12 April 2025', location: 'Chandigarh' },
+];
