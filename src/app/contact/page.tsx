@@ -24,7 +24,7 @@ export default function ContactPage() {
                 </div>
                 <div>
                     <h3 className="font-semibold">Our Headquarters</h3>
-                    <p className="text-muted-foreground">123 Innovation Drive, Metropolis, NY 10001, USA</p>
+                    <p className="text-muted-foreground">302 Shail's Mall, Nr. Girish Cold Drinks, C. G. Road, Navarangpura, Ahmedabad - 380009</p>
                 </div>
             </div>
              <div className="flex items-start gap-4">
@@ -33,7 +33,8 @@ export default function ContactPage() {
                 </div>
                 <div>
                     <h3 className="font-semibold">Email Us</h3>
-                    <p className="text-muted-foreground">inquiries@knsgroup.com</p>
+                    <p className="text-muted-foreground">expo@pharmatechnologyindex.com</p>
+                    <p className="text-muted-foreground">kns_98@yahoo.com</p>
                 </div>
             </div>
              <div className="flex items-start gap-4">
@@ -42,7 +43,7 @@ export default function ContactPage() {
                 </div>
                 <div>
                     <h3 className="font-semibold">Call Us</h3>
-                    <p className="text-muted-foreground">+1 (555) 123-4567</p>
+                    <p className="text-muted-foreground">+91-79-2754 0493</p>
                 </div>
             </div>
           </div>
