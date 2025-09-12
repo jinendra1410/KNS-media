@@ -83,14 +83,17 @@ export default function AboutPage() {
               </div>
             </div>
             <div className="mx-auto grid max-w-5xl items-start gap-8 sm:grid-cols-2 md:gap-12 lg:grid-cols-3 mt-12">
-              {groupCompanies.map((company) => (
+              {groupCompanies.map((company) => {
+                const Icon = company.icon;
+                return (
                 <Card key={company.name} className="h-full bg-background transform transition-all duration-300 hover:scale-105 hover:shadow-xl">
                   <CardHeader className="flex flex-row items-center gap-4">
-                     <company.icon className="h-8 w-8 text-accent" />
+                     <Icon className="h-8 w-8 text-accent" />
                     <CardTitle className="font-headline text-base">{company.name}</CardTitle>
                   </CardHeader>
                 </Card>
-              ))}
+                );
+              })}
             </div>
           </div>
         </section>
