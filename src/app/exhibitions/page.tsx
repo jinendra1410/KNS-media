@@ -10,7 +10,9 @@ import {
 } from '@/components/ui/table';
 import { exhibitions, upcomingExhibitions } from '@/lib/data';
 import { Badge } from '@/components/ui/badge';
-import { CalendarDays } from 'lucide-react';
+import { CalendarDays, ArrowRight } from 'lucide-react';
+import { Button } from '@/components/ui/button';
+import Link from 'next/link';
 
 export default function ExhibitionsPage() {
   return (
@@ -29,6 +31,11 @@ export default function ExhibitionsPage() {
               PharmaTechnologyIndex.com Pvt. Ltd is the organizer of "PharmaTech Expo & LabTech Expo", which are premier flagship events dedicated to pharmaceutical innovation, technology and knowledge.
             </p>
           </div>
+          <Link href="https://pharmatechexpo.com/" target="_blank" rel="noopener noreferrer">
+            <Button>
+              Visit Our Website <ArrowRight className="ml-2 h-4 w-4" />
+            </Button>
+          </Link>
            <div className="grid grid-cols-2 gap-4">
               <Image
                 src="https://picsum.photos/seed/expo-1/300/200"
