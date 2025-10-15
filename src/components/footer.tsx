@@ -11,8 +11,7 @@ export function Footer() {
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
           <div className="space-y-4">
             <div className="flex items-center gap-2">
-                <KnsLogo className="h-8 w-8 text-primary" />
-                <span className="font-headline text-xl font-bold">KNS GROUP</span>
+                <KnsLogo className="h-16 w-auto" />
             </div>
             <p className="text-sm text-muted-foreground">Innovation Continues</p>
           </div>

@@ -56,15 +56,14 @@ export function Header() {
   );
 
   return (
-    <header className="sticky top-0 z-50 flex h-16 items-center gap-4 border-b bg-background/80 backdrop-blur-sm px-4 md:px-6">
+    <header className="sticky top-0 z-50 flex h-24 items-center gap-4 border-b bg-background/80 backdrop-blur-sm px-4 md:px-6">
       <div className="flex w-full items-center justify-between">
         <div className="hidden flex-col gap-6 text-lg font-medium md:flex md:flex-row md:items-center md:gap-5 md:text-sm lg:gap-6">
           <Link
             href="/"
             className="flex items-center gap-2 text-lg font-semibold md:text-base mr-4"
           >
-            <KnsLogo className="h-6 w-6 text-primary" />
-            <span className="font-headline font-bold">KNS Group Hub</span>
+            <KnsLogo className="h-16 w-auto" />
           </Link>
           {mainNavLinks.map(({ href, label }) => renderLink(href, label))}
 
@@ -99,8 +98,7 @@ export function Header() {
           href="/"
           className="flex items-center gap-2 text-lg font-semibold md:hidden"
         >
-          <KnsLogo className="h-6 w-6 text-primary" />
-          <span className="font-headline font-bold">KNS Group Hub</span>
+          <KnsLogo className="h-14 w-auto" />
         </Link>
 
 
@@ -117,8 +115,7 @@ export function Header() {
                 href="/"
                 className="flex items-center gap-2 text-lg font-semibold"
               >
-                <KnsLogo className="h-6 w-6 text-primary" />
-                <span className="font-headline font-bold">KNS Group Hub</span>
+                <KnsLogo className="h-14 w-auto" />
               </Link>
               {allNavLinks.map(({ href, label }) => (
                  <Link

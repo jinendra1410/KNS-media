@@ -51,7 +51,6 @@ export default function ManagementPage() {
     <div className="container py-12 md:py-16 lg:py-20">
       <div className="space-y-4 text-center mb-16">
         <div className="flex justify-center items-center gap-4">
-             <KnsLogo className="h-10 w-10 text-primary" />
              <h1 className="font-headline text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl">
                 KNS Group Leadership
              </h1>
