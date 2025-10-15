@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   title: 'KNS Group Hub',
   description: 'The official website for KNS Group of companies.',
   icons: {
-    icon: '/favicon.ico',
+    icon: 'https://jmtech-solutions.tech/kns%20Group%20logo.png',
   },
 };
 

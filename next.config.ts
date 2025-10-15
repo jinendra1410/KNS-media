@@ -28,6 +28,12 @@ const nextConfig: NextConfig = {
         port: '',
         pathname: '/**',
       },
+      {
+        protocol: 'https',
+        hostname: 'jmtech-solutions.tech',
+        port: '',
+        pathname: '/**',
+      },
     ],
   },
 };
